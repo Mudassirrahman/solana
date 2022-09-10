@@ -1,16 +1,18 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import SocialIcone from './components/SocialIcone';
-import SubHero from './components/SubHero';
+import NftsCard from './components/Nfts-Card/NftsCard';
+import NftsMenuBar from './components/Nfts-Card/NftsMenuBar';
 
 function App() {
   return (
    <>
     <Header />
     <Hero />
-    <SocialIcone />
-    <SubHero />
+    <NftsMenuBar />
+    <NftsCard />
+    <Footer />
    </>
   );
 }
