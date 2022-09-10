@@ -6,14 +6,14 @@ function NftsMenuBar() {
         <div className='container d-flex justify-content-between mt-5'>
             <div className='d-flex'>
                 <h5 className='pt-3 pe-2'>Sort by</h5>
-                <div class="dropdown">
-  <button class="dropdown-toggle px-4 py-3 mx-2 rounded-3 border-0" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div className="dropdown">
+  <button className="dropdown-toggle px-4 py-3 mx-2 rounded-3 border-0" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown button
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
+  <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a className="dropdown-item" href="#">Action</a>
+    <a className="dropdown-item" href="#">Another action</a>
+    <a className="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
             </div>
